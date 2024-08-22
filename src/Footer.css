@@ -1,0 +1,52 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+  }
+  
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .links {
+    display: flex;
+  }
+  
+  .links ul {
+    list-style: none;
+    padding: 0;
+    margin-right: 30px;
+  }
+  
+  .links ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .support {
+    text-align: left;
+  }
+  
+  .inquiry-btn {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
